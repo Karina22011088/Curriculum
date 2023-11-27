@@ -1,0 +1,160 @@
+<HTML lang="es"> <!-- Código de idioma Español -->
+
+
+
+<head>
+  <meta charset="UTF-8">  <!-- la etiqueta meta nos ayuda a guardar metadatos -->
+  <meta name="viewport" content="">
+  <link rel="stylesheet" href="style/style.css"> <!-- Carga la hoja de estilo -->
+  <title>Curriculum</title>
+  <script type="text/javascript">
+    function popUp(URL) {
+        window.open(URL, 'Nombre de la ventana', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=600,height=400,left = 390,top = 50');
+    }
+</script>
+</head>
+
+
+
+<body>
+  <!-- Comentario de sección -->
+  <section id="presentacion"> <!-- Todo lo que va a aparecer del lado izquierdo -->
+    <h2>Karina Gabriela Cruz Cruz</h2>
+    <div class="perfil">
+      <img class="perfil" src="resources/Karina1.jpg" alt="Fotografía de Karina Gabriela Cruz Cruz" />
+    </div>
+
+    <fieldset>  <!-- Permite poner un apartado dentro de alguna seccción, es como una ficha -->
+      <legend><strong>Datos personales</strong></legend>
+      <p><strong>Correo:</strong> <a href="mailto:22011088@itsoeh.edu.mx">22011088@itsoeh.edu.mx</a> </p>
+      <p><strong>Edad:</strong> 19 años</p>
+      <p><strong>Ciudad:</strong> Hidalgo, Mex.</p>
+      <section class="redes">  <!-- Nos ayuda a dividir secciones en este caso nuestra seccion es de redes  -->
+        <p><strong>Redes sociales:</strong></p>
+        <a href="https://www.facebook.com/kari.cruz.583" target="_blank">
+          <img src="resources/redes/facebook.png" width="30" alt="@kari.cruz.583">
+        </a>
+        <a title="" href="https://www.instagram.com/kari_crz1/?hl=es" target="_blank">
+          <img  src="resources/redes/instagram.png" width="30" alt="kari_crz1">
+        </a>
+        <a title="" href="https://twitter.com/kari_crz1" target="_blank">
+          <img src="resources/redes/twitter.png" width="30" alt="kari_crz1">
+        </a>
+      </section>
+
+      <section class="habilidades">  
+        <p><strong>Habilidades: </strong></p>
+        <p>Trabajo en equipo</p>
+        <progress value="60" max="100"></progress> <!-- Con progress se pueden poner barras de progreso -->
+        <p>Liderazgo</p>
+        <progress value="60" max="100"></progress>
+      </section>
+
+    </fieldset>
+  </section>
+
+  <!-- Comentario de sección -->
+  <section id="contenido">  <!-- El id "contenido" es todo lo que se ve en el lado izquierdo -->
+    <fieldset>  <!-- Nos permite ver el contenido como si fueran fichas  -->
+      <legend><strong>Estudios cursados</strong></legend>
+      <h3>Ingeniería en Tecnologías de la Información y Comunicaciones - Instituto Tecnológico Superior del Occidente del Estado de Hidalgo</h3>
+      <p>Periodo: 2022-2026</p>
+    </fieldset>
+
+    <fieldset>   <!-- Apartado para poner los idiomas hablados  -->
+      <legend><strong>Idiomas</strong></legend>
+      <div id="idioma">
+        <div class="col">
+          <h3>Español</h3>
+          <p>Nivel nativo</p>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>   <!-- Apartado para poner las herramientas -->
+      <legend><strong>Herramientas</strong></legend>
+      <table>  <!-- Creación de una tabla -->
+        <tr>
+          <th scope="col"><strong>Lenguajes de programación</strong></th>
+          <th scope="col"><strong>Entornos SQL</strong></th>
+          <th scope="col"><strong>Entornos NoSQL</strong></th>
+        </tr>
+
+        <tr>
+          <td>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>C#</li>
+            <li>Javascript</li>
+            <li>HTML5</li>
+            <li>css</li>
+          </td>
+
+          <td>
+            <li>SQL Server</li>
+            <li>Oracle</li>
+            <li>HeidiSQL</li>
+            <li>PostgreSQL</li>
+          </td>
+
+          <td>
+            <li>Firestore</li>
+            <li>Cosmos DB</li>
+        </td> 
+
+        </tr>
+      </table>
+    </fieldset>
+
+    <fieldset>  <!-- Apartado para poner las prácticas de clase -->
+      <legend><strong>Estructura y organización de datos</strong></legend>
+      <table>
+          <tr>
+              <th scope="col"><strong>Introucción a EOD</strong></th>
+              <th scope="col"><strong>Estructuras lineales</strong></th>              
+              <th scope="col"><strong>Recursión</strong></th>
+              <th scope="col"><strong>Estructuras no lineales</strong></th>
+              <th scope="col"><strong>Evaluaciones</strong></th>
+          </tr>
+
+          <tr>
+              <td>
+                <li> <a href="javascript:popUp('prueba.html')">Hola mundo</a></li><!-- Enlaces a las Practicas realizadas  -->
+                <li><a  href="javascript:popUp('adivinaNumero.html')">Adivina numero</a></li>                 
+                <li> <a href="javascript:popUp('animal.html')">Animal</a></li>
+                <li> <a href="javascript:popUp('operacionArreglo.html')">Arreglo</a></li>
+                
+                
+              </td>   
+              <td>
+                  <li><a href="javascript:popUp('poo.html')">POO</a></li>
+                  <li><a href="javascript:popUp('linkedList.html')">Lista enlazada</a></li>
+                  <li><a href="javascript:popUp('queue.html')">Cola</a></li>
+                  <li><a href="javascript:popUp('stack.html')">Pila</a></li>               
+              </td>
+              <td>
+                <li><a href="javascript:popUp('factorial.html')">Factorial</a></li>
+                <li><a href="javascript:popUp('potencia.html')">Potencia</a></li>   
+                <li><a href="javascript:popUp('estacionamiento.html')">Estacionamiento</a></li>             
+              </td>
+              <td>
+                <li><a href="javascript:popUp('TreeSearch.html')">Árbol</a></li>
+                <li><a href="javascript:popUp('CountWords.html')">Contador de palabras</a></li>
+                <li><a href="javascript:popUp('UndirectedGraph.html')">Grafo no dirigido</a></li>
+              </td>
+              <td>
+                <li><a href="javascript:popUp('doublyLinkedList.html')">Lista doblemente enlazada</a></li>
+                <li><a href="javascript:popUp('Dijkstra.html')">Dijkstra</a></li>                
+              </td>
+          </tr>
+
+      </table>
+  </fieldset>
+
+  </section>
+
+</body>
+
+</HTML>
+
